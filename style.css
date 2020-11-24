@@ -1,0 +1,103 @@
+head {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.input {
+  width: 400px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 15px;
+}
+
+.icon {
+  padding: 8px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom: 1px solid grey;
+  flex: 1;
+}
+
+.sideBarElement1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.intro {
+  margin-left: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.videoList {
+  flex: 4;
+}
+
+.videoList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 22%;
+  height: 190px;
+  margin: 8px;
+  justify-content: space-between;
+}
+
+.pic {
+  flex: 5;
+  width: 253px;
+}
+
+.smallPic {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spic {
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.picIntro {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
